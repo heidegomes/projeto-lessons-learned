@@ -21,6 +21,7 @@ body {
 #minha_foto {
     width: 300px;
     padding: 20px 20px 0px 20px;
+    display: inline-block;
 }
 
 p {
@@ -35,7 +36,7 @@ p {
 
 #licoes_a_aprender {
     width: 40%;
-    display: inline-block
+    display: inline-block;
 }
 
 #rodape {
@@ -44,3 +45,11 @@ p {
     padding: 20px;
     text-align: right;
 }
+
+aside {
+    width: 50%;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: lightgray;
+    display: inline-block;
+  }
