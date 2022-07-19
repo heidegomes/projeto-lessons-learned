@@ -25,4 +25,15 @@ body {
 
 p {
     margin-left: 20px;
+   
+}
+
+#licoes_aprendidas {
+    width: 40%;
+    display: inline-block;
+}
+
+#licoes_a_aprender {
+    width: 40%;
+    display: inline-block
 }
