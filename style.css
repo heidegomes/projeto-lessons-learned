@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #cabecalho {
@@ -52,4 +53,9 @@ aside {
     margin-left: 20px;
     background-color: lightgray;
     display: inline-block;
+  }
+
+  table, th, td {
+    border:1px solid black;
+    width: 50%;
   }
