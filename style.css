@@ -62,7 +62,7 @@ aside {
 
 article {
     text-align: justify;
-    margin-left: 20px;
+    margin: 20px;
     border-style: inset;
     padding: 15px;
 }
