@@ -77,3 +77,10 @@ article {
     display: inline-block;
     width: 40%;
 }
+
+table, th, td {
+    border: 2px solid darkslategrey;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 13px;
+}
