@@ -1,6 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: 'Courier New', Courier, monospace;
+    color: darkslategrey;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 #cabecalho {
@@ -25,19 +28,21 @@ body {
     display: inline-block;
 }
 
-p {
+p, h2 {
     margin-left: 20px;
-   
+    margin-bottom: 0px;
 }
 
 #licoes_aprendidas {
     width: 40%;
     display: inline-block;
+    margin-left: 20px;
 }
 
 #licoes_a_aprender {
     width: 40%;
     display: inline-block;
+    margin-left: 20px;
 }
 
 #rodape {
@@ -45,17 +50,30 @@ p {
     background-color: #036b52;
     padding: 20px;
     text-align: right;
+    color: black;
 }
 
 aside {
-    width: 50%;
+  
     padding: 20px;
     margin-left: 20px;
     background-color: lightgray;
-    display: inline-block;
-  }
+}
 
-  table, th, td {
-    border:1px solid black;
-    width: 50%;
-  }
+article {
+    text-align: justify;
+    margin-left: 20px;
+    border-style: inset;
+    padding: 15px;
+}
+
+#lado-esquerdo {
+    display: inline-block;
+    width: 40%;
+    
+}
+
+#lado-direito {
+    display: inline-block;
+    width: 40%;
+}
