@@ -5,7 +5,7 @@ body {
 #cabecalho {
     top: 0;
     background-color: #036b52;
-    padding: 20px 50px 70px 50px;
+    padding: 20px 50px 50px 50px;
 }
 
 #titulo {
@@ -36,4 +36,11 @@ p {
 #licoes_a_aprender {
     width: 40%;
     display: inline-block
+}
+
+#rodape {
+    bottom: 0;
+    background-color: #036b52;
+    padding: 20px;
+    text-align: right;
 }
