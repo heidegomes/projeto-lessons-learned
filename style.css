@@ -1,99 +1,97 @@
 body {
-    padding-top: 80px;
-    background-color: rgb(253, 251, 251);
-    font-family: 'Courier New', Courier, monospace;
-    color: darkslategrey;
-    font-size: 15px;
-    line-height: 25px;
+  padding-top: 80px;
+  background-color: rgb(253, 251, 251);
+  font-family: "Courier New", Courier, monospace;
+  color: darkslategrey;
+  font-size: 15px;
+  line-height: 25px;
 }
 
 main {
-    padding-bottom: 300px;
+  padding-bottom: 300px;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: #036b52;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(3, 107, 82);
+  width: 100%;
 }
 
 #titulo {
-    color: rgb(253, 251, 251);
-    text-align: center;
+  color: rgb(253, 251, 251);
+  text-align: center;
 }
 
 #navegacao {
-    color:rgb(253, 251, 251);
-
+  color: rgb(253, 251, 251);
 }
 
 #minha_foto {
-    z-index: 10;
-    width: 300px;
-    padding: 20px 20px 0px 20px;
-    display: inline-block;
+  z-index: 10;
+  width: 300px;
+  padding: 20px 20px 0px;
+  display: inline-block;
 }
 
-p, h2 {
-    margin-left: 20px;
-    margin-bottom: 0px;
+p h2 {
+  margin-left: 20px;
 }
 
 #licoes_aprendidas {
-    width: 40%;
-    display: inline-block;
-    margin-left: 20px;
+  width: 40%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 #licoes_a_aprender {
-    width: 40%;
-    display: inline-block;
-    margin-left: 20px;
+  width: 40%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 #rodape {
     width: 100%;
     bottom: 0;
-    background-color: #036b52;
+    background-color: rgb(3, 107, 82);
     padding: 20px;
     text-align: right;
     color: black;
 }
 
 aside {
-    padding: 20px;
-    margin-left: 20px;
-    background-color: lightgray;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: lightgray;
 }
 
 article {
-    text-align: justify;
-    margin: 20px;
-    border-style: inset;
-    padding: 15px;
+  text-align: justify;
+  margin: 20px;
+  border-style: inset;
+  padding: 15px;
 }
 
 .lado-esquerdo {
-    float: left;
-    position: absolute;
-    display: inline-block;
-    width: 40%;
-    margin-left: 70px;
+  float: left;
+  position: absolute;
+  display: inline-block;
+  width: 40%;
+  margin-left: 70px;
 }
 
 .lado-direito {
-    float: right;
-    position: relative;
-    display: inline-block;
-    width: 40%;
-    margin-top: 70px ;
-    margin-right: 70px;
+  float: right;
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  margin-top: 70px;
+  margin-right: 70px;
 }
 
-table, th, td {
-    border: 2px solid darkslategrey;
-    border-collapse: collapse;
-    text-align: center;
-    font-size: 13px;
+table th td {
+  border: 2px solid darkslategrey;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 13px;
 }
