@@ -7,9 +7,9 @@ body {
     line-height: 25px;
 }
 
-/* main {
-    padding-bottom: 150px;
-} */
+main {
+    padding-bottom: 300px;
+}
 
 #cabecalho {
     position: fixed;
@@ -75,6 +75,7 @@ article {
 }
 
 .lado-esquerdo {
+    float: left;
     position: relative;
     display: inline-block;
     width: 40%;
