@@ -7,6 +7,10 @@ body {
     line-height: 25px;
 }
 
+main {
+    padding-bottom: 150px;
+}
+
 #cabecalho {
     position: fixed;
     top: 0;
@@ -72,12 +76,14 @@ article {
 
 .lado-esquerdo {
     float: left;
+    position: relative;
     display: inline-block;
     width: 40%;
     
 }
 
 .lado-direito {
+    position: relative;
     display: inline-block;
     width: 40%;
 }
