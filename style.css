@@ -76,7 +76,7 @@ article {
 
 .lado-esquerdo {
     float: left;
-    position: relative;
+    position: absolute;
     display: inline-block;
     width: 40%;
     margin-left: 70px;
